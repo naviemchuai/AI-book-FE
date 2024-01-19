@@ -12,9 +12,9 @@ import BookContent from '../components/BookContent'
 
 const navigation = [
   { name: 'Home', href: '#', icon: HomeIcon, current: false },
-  { name: 'Take note', href: '#', icon: DocumentDuplicateIcon, current: false },
-  { name: 'AI Chat', href: '#', icon: ChatBubbleLeftIcon, current: false },
-  { name: 'Create material', href: '#', icon: ChartPieIcon, current: false },
+  { name: 'Notes', href: '#', icon: DocumentDuplicateIcon, current: false },
+  { name: 'Chat', href: '#', icon: ChatBubbleLeftIcon, current: false },
+  { name: 'Materials', href: '#', icon: ChartPieIcon, current: false },
 ]
 const refferences = [
   { id: 1, name: 'Matrices', href: '#', initial: 'M', current: false },

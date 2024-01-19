@@ -2,6 +2,7 @@ import { Fragment, useState } from 'react'
 import { Dialog, Transition } from '@headlessui/react'
 import { XMarkIcon, ChevronUpIcon } from '@heroicons/react/24/outline'
 import Reader from '../components/Reader'
+import AssistantTabs from '../components/AssistantTabs'
 
 export default function ReadingPage() {
   const [open, setOpen] = useState(true)
@@ -53,7 +54,9 @@ export default function ReadingPage() {
                           </div>
                         </div>
                       </div>
-                      <div className="relative mt-6 flex-1 px-4 sm:px-6">{/* Your content */}</div>
+                      <div className="relative mt-6 flex-1 px-4 sm:px-6">{
+                        <AssistantTabs />
+                      }</div>
                     </div>
                   </Dialog.Panel>
                 </Transition.Child>
